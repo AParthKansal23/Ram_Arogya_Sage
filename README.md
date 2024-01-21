@@ -1,41 +1,38 @@
-# 🌿 **RamArogyaSage - Open Source AI Hackathon** 🌿
+# RamArogyaSage - Open Source AI Hackathon
 
-## 🚀 Project Overview
+<a href='https://hasgeek.com/fifthelephant/open-source-ai-hackathon/sub/ramarogyasage-a-health-assistant-ai-VrRVfUz3cNH3GvvTC9Fi3q'>RamArogyaSage - A Health Assistant AI</a>
+## Project Overview
 
-Welcome to RamArogyaSage – where healthcare meets innovation and user empowerment! Our project is not just about managing health; it's a journey towards a more personalized and transformative well-being experience. By seamlessly integrating cutting-edge AI technologies like LangChain, GPT, and PALM API, we're crafting a holistic approach to health that puts the power in your hands.
+RamArogyaSage is not just a healthcare platform; it's a transformative solution designed to revolutionize how individuals approach and manage their well-being. With a core focus on user empowerment, the project seamlessly integrates advanced AI technologies, including LangChain, GPT, and PALM API, to provide a holistic and personalized health experience.
 
-## 🛣️ Roadmap
+## Roadmap
 
-### 1. Setting the Stage 🎭
+### 1. Enhancing User-Friendly Symptom Input
 
-- **Objective**: Build a rock-solid foundation for our journey.
-- **Progress**: 🍴 Forked and cloned the repository, 🔧 Installed the essentials - LangChain, GPT, and PALM API.
+- *Objective*: Make health information input intuitive and user-friendly.
+- *Progress*: Implemented both text and speech input options, ensuring a smooth and guided process.
 
-### 2. User-Friendly Symphony 🎶
+### 2. Building an Advanced AI Symptom Analysis
 
-- **Objective**: Make health input a melody of simplicity.
-- **Progress**: ✨ Implemented text and speech input for a seamless and guided user experience.
+- We're currently in the process of training our AI model for advanced symptom analysis using LangChain and GPT. Additionally, we're looking to integrate Google's Vertex AI, specifically PALM API, to finely tune our Large Language Model (LLM). This combination aims to enhance our model's ability to understand health-related language with improved accuracy and effectiveness.
 
-### 3. AI Artistry 🎨
+### 3. Personalized Health Insights
 
-- **Objective**: Create a masterpiece AI model for precise symptom analysis.
-- **Progress**: 🚀 Currently training our AI model with LangChain and GPT, and adding a touch of knowledge with a PDF understanding tool.
+- *Objective*: Provide users with tailored health recommendations.
+- *Progress*: Working on generating personalized insights, including practical home remedies, Ayurvedic medicine suggestions, disease explanations, and preventive measures.
 
-### 4. Personalized Health Canvas 🖌️
+### 4. Secure and Seamless Online Consultancy
 
-- **Objective**: Paint personalized health insights for each user.
-- **Progress**: 🎨 Crafting personalized insights – from practical home remedies to Ayurvedic wonders and insightful disease explanations.
+- *Objective*: Facilitate secure online consultations with healthcare professionals.
+- *Progress*: In the process of developing a secure platform, managing meeting details, and ensuring compliance with healthcare regulations.
 
-### 5. Secure Serenity 🛡️
+### 5. Accessible Information and Education
 
-- **Objective**: Provide a safe haven for online consultations.
-- **Progress**: 🏰 Building a secure platform, managing meeting details, and ensuring we follow the healthcare regulation dance.
+- *Objective*: Promote health literacy through educational resources.
+- *Progress*: Integrating educational content within the app, sourcing reliable information from medical and Ayurvedic textbooks.
 
-### 6. Illuminating Knowledge 💡
+## Need of the Project
 
-- **Objective**: Light up health literacy through educational fireworks.
-- **Progress**: 📚 Integrating a firework of educational content, sourced from reliable medical and Ayurvedic textbooks.
+RamArogyaSage is born out of the necessity for a transformative healthcare solution. It's more than just an app; it's a journey towards personalized well-being. By merging cutting-edge AI technologies and a user-centric approach, we aim to redefine how individuals engage with their health. 
 
-## 🌟 Need of the Project
-
-RamArogyaSage is not just a project; it's a symphony of transformation, an art gallery of personalized health, and a sanctuary of secure well-being. By blending innovation and user-centric design, we aim to redefine your health journey. Join us in this enchanting adventure, and let's create a magical impact on health and wellness. Happy hacking! 🚀✨
+## The project has been possible with the guidence of <a href="https://hasgeek.com/fifthelephant"> THE FIFTH ELEPHANT COMMUNITY </a>
