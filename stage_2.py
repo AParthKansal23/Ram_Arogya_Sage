@@ -44,7 +44,7 @@ def get_text_chunks(text):
 
 def get_vectorstore(text_chunks):
     # embeddings = OpenAIEmbeddings()
-    # embeddings = GoogleGenerativeAIEmbeddings(model = "models/embedding-001",google_api_key='AIzaSyDugoEoAn72EAGwXMnmt2p6Ubi0OxfIQYs')
+    # embeddings = GoogleGenerativeAIEmbeddings(model = "models/embedding-001",google_api_key='GOOGLE_API_KEY')
     # embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl")
     vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     return vectorstore
@@ -55,7 +55,7 @@ def get_vectorstore(text_chunks):
 def get_conversation_chain(vectorstore):
     # llm = ChatOpenAI()
     # llm = HuggingFaceHub(repo_id="google/flan-t5-xxl", model_kwargs={"temperature":0.5, "max_length":512})
-    # llm=ChatGoogleGenerativeAI(model="gemini-pro",temperature=0.3,google_api_key='AIzaSyDugoEoAn72EAGwXMnmt2p6Ubi0OxfIQYs')
+    # llm=ChatGoogleGenerativeAI(model="gemini-pro",temperature=0.3,google_api_key='GOOGLE_API_KEY')
 
 
     memory = ConversationBufferMemory(
@@ -89,7 +89,7 @@ def get_conversation_chain(vectorstore):
 
 
 #     model = ChatGoogleGenerativeAI(model="gemini-pro",
-#                              temperature=0.3,google_api_key='AIzaSyDugoEoAn72EAGwXMnmt2p6Ubi0OxfIQYs')
+#                              temperature=0.3,google_api_key='GOOGLE_API_KEY')
 
 
 #     prompt = PromptTemplate(template = prompt_template, input_variables = ["context", "question"])
@@ -139,8 +139,7 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="Chat with multiple PDFs",
-                       page_icon=":books:")
+    st.set_page_config(page_title="RamArogyaSage")
     st.write(css, unsafe_allow_html=True)
 
 
@@ -150,8 +149,8 @@ def main():
         st.session_state.chat_history = None
 
 
-    st.header("Chat with multiple PDFs :books:")
-    user_question = st.text_input("Ask a question about your documents:")
+    st.header("Prompt")
+    user_question = st.text_input("Type Here")
     if user_question:
         handle_userinput(user_question)
 
